@@ -61,10 +61,10 @@ async function init() {
 	}
 
     // Set shapes color
-	shape.setColor(user_shape_color);
+	shape.setColor(shapeColor);
 
 	// Create a new Svg instance and add the shape and text elements to it
     console.log("Program Exit");
 }
 
-await init();
+init();
