@@ -26,7 +26,7 @@ const questions = [
 	},
 ];
 
-async function init() {
+const init = async () => {
 	console.log("Starting Program");
 	let logoText;
 	let textColor;
