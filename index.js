@@ -39,7 +39,8 @@ async function init() {
 	var user_text = "";
 
     // Check if text is valid
-	if (answers.text.length > 0 && answers.text.length < 4) {
+	console.log(answers.text.length);
+	if (answers.text.length > 0 && answers.text.length <= 3) {
 		logoText = answers.text;
 	} else {
 		console.log("Invalid user text field detected! Please enter 1-3 Characters, no more and no less");
