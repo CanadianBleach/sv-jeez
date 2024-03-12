@@ -39,10 +39,10 @@ const init = async () => {
 
 	// Check if text is valid
 	console.log(answers.text.length);
-	if (answers.text.length > 0 && answers.text.length <= 3) {
+	if (answers.text.length >= 0 && answers.text.length <= 3) {
 		logoText = answers.text;
 	} else {
-		console.log("Invalid user text field detected! Please enter 1-3 Characters, no more and no less");
+		console.log("Invalid user text field detected! Please enter 0-3 Characters, no more and no less");
 		return;
 	}
 
